@@ -35,7 +35,7 @@ def solution(a, b):
         absum.append(x)
     return sum(absum)        
 ```
-
+두 값 중 min(), max()를 사용해 최소, 최대값을 추출 한 다음, 지정한 값으로 for문을 만들어주었다. for문에서 주의할 것은 범위 range를 정할 때, 위의 y + 1처럼 1을 더해야 y값까지 반복한다. 나는 리스트를 만들어서 for문에 해당되는 값들을 추가하고 sum() 함수로 리턴해주었다.
 ### 성능 요약
 
 0.42ms, 10.1MB
