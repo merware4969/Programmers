@@ -43,6 +43,10 @@ def solution(arr):
             answer.append(arr[i])
     return answer
 ```
+### 채점 결과
+정확성: 71.9
+효율성: 28.1
+합계: 100.0 / 100.0
 
 ### 제일 간결한 답:
 
